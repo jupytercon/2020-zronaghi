@@ -1,0 +1,21 @@
+# name: rapids_0.15
+channels:
+- rapidsai
+- nvidia
+- conda-forge
+- defaults
+dependencies:
+- python=3.7
+- cudatoolkit=10.2
+- cudf
+- dask-cudf
+- cuml
+- scikit-learn
+- rapids-xgboost=0.15.1
+- scipy
+- cupy=7
+- psutil
+- ipykernel
+- jupyterlab
+- matplotlib
+- python-graphviz
